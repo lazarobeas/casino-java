@@ -3,7 +3,7 @@ target/
 
 *.iml
 *.iws
-*ipr
+*.ipr
 
 .DS_Store
 
