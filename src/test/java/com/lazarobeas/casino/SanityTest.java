@@ -6,8 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 class SanityTest {
 
     @Test
-    void mavenAndJUnitInstalledCorrectley() {
-        int sum = 2;
-        assertThat(sum).isEqualTo(sum);
+    void mavenAndJUnitInstalledCorrectly() {
+        assertThat(1+1).isEqualTo(2);
     }
 }
